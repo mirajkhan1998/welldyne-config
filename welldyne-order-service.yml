@@ -8,3 +8,9 @@ spring:
     generate-ddl: false
     show-sql: false
 default-pharmacy: quantum
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: false
+    fetch-registry: false
